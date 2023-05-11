@@ -41,7 +41,9 @@ function onMakeOrder(event) {
     color: onChooseColor(),
   };
 
-  alert(`вы заказали вещь в количестве ${order.amount}, цвет: ${order.color}, ваш комментарий: ${order.comment}`);
+  alert(
+    `вы заказали вещь в количестве ${order.amount}, цвет: ${order.color}, ваш комментарий: ${order.comment}`
+  );
 }
 
 function onChooseColor() {
