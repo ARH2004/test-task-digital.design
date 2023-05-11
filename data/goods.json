@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "accusamus beatae ad facilis cum",
+    "url": "https://via.placeholder.com/600/92c952",
+    "img": "https://via.placeholder.com/150/92c952",
+    "date": "01.01.2022",
+    "type": "cheap"
+  },
+  {
+    "id": 2,
+    "title": "reprehenderit est deserunt velit",
+    "url": "https://via.placeholder.com/600/771796",
+    "img": "https://via.placeholder.com/150/771796",
+    "date": "01.03.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 3,
+    "title": "officia porro iure quia iusto qui ipsa",
+    "url": "https://via.placeholder.com/600/24f355",
+    "img": "https://via.placeholder.com/150/24f355",
+    "date": "02.05.2012",
+    "type": "average"
+  },
+  {
+    "id": 4,
+    "title": "culpa odio esse rerum omnis laboriosam",
+    "url": "https://via.placeholder.com/600/d32776",
+    "img": "https://via.placeholder.com/150/d32776",
+    "date": "01.12.2016",
+    "type": "cheap"
+  },
+  {
+    "id": 5,
+    "title": "natus nisi omnis corporis facere ",
+    "url": "https://via.placeholder.com/600/f66b97",
+    "img": "https://via.placeholder.com/150/f66b97",
+    "date": "05.01.2022",
+    "type": "cheap"
+  },
+  {
+    "id": 6,
+    "title": "accusamus ea aliquid et amet sequi nemo",
+    "url": "https://via.placeholder.com/600/56a8c2",
+    "img": "https://via.placeholder.com/150/56a8c2",
+    "date": "04.01.2022",
+    "type": "cheap"
+  },
+  {
+    "id": 7,
+    "title": "officia delectus consequatur vero aut",
+    "url": "https://via.placeholder.com/600/b0f7cc",
+    "img": "https://via.placeholder.com/150/b0f7cc",
+    "date": "03.09.2022",
+    "type": "cheap"
+  },
+  {
+    "id": 8,
+    "title": "aut porro officiis laborum odit ea ",
+    "url": "https://via.placeholder.com/600/54176f",
+    "img": "https://via.placeholder.com/150/54176f",
+    "date": "04.11.2022",
+    "type": "cheap"
+  },
+  {
+    "id": 9,
+    "title": "qui eius qui autem sed",
+    "url": "https://via.placeholder.com/600/51aa97",
+    "img": "https://via.placeholder.com/150/51aa97",
+    "date": "21.01.2012",
+    "type": "cheap"
+  },
+  {
+    "id": 10,
+    "title": "beatae et provident et ut vel",
+    "url": "https://via.placeholder.com/600/810b14",
+    "img": "https://via.placeholder.com/150/810b14",
+    "date": "04.03.2022",
+    "type": "cheap"
+  },
+  {
+    "id": 11,
+    "title": "nihil at amet non hic quia qui",
+    "url": "https://via.placeholder.com/600/1ee8a4",
+    "img": "https://via.placeholder.com/150/1ee8a4",
+    "date": "01.04.2022",
+    "type": "cheap"
+  },
+  {
+    "id": 12,
+    "title": "mollitia soluta ut rerum eos aliquam",
+    "url": "https://via.placeholder.com/600/66b7d2",
+    "img": "https://via.placeholder.com/150/66b7d2",
+    "date": "06.03.2022",
+    "type": "cheap"
+  },
+  {
+    "id": 13,
+    "title": "repudiandae iusto deleniti rerum",
+    "url": "https://via.placeholder.com/600/197d29",
+    "img": "https://via.placeholder.com/150/197d29",
+    "date": "08.01.2021",
+    "type": "expensive"
+  },
+  {
+    "id": 14,
+    "title": "est necessitatibus architecto ut",
+    "url": "https://via.placeholder.com/600/61a65",
+    "img": "https://via.placeholder.com/150/61a65",
+    "date": "03.04.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 15,
+    "title": "harum dicta similique quis dolore",
+    "url": "https://via.placeholder.com/600/f9cee5",
+    "img": "https://via.placeholder.com/150/f9cee5",
+    "date": "01.09.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 16,
+    "title": "iusto sunt nobis quasi veritatis ",
+    "url": "https://via.placeholder.com/600/fdf73e",
+    "img": "https://via.placeholder.com/150/fdf73e",
+    "date": "01.05.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 17,
+    "title": "natus doloribus necessitatibus ipsa",
+    "url": "https://via.placeholder.com/600/9c184f",
+    "img": "https://via.placeholder.com/150/9c184f",
+    "date": "01.02.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 18,
+    "title": "laboriosam odit nam necessitatibu",
+    "url": "https://via.placeholder.com/600/1fe46f",
+    "img": "https://via.placeholder.com/150/1fe46f",
+    "date": "01.06.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 19,
+    "title": "perferendis nesciunt eveniet et ",
+    "url": "https://via.placeholder.com/600/56acb2",
+    "img": "https://via.placeholder.com/150/56acb2",
+    "date": "01.02.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 20,
+    "title": "assumenda voluptatem laboriosam ",
+    "url": "https://via.placeholder.com/600/8985dc",
+    "img": "https://via.placeholder.com/150/8985dc",
+    "date": "01.08.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 21,
+    "title": "ad et natus qui",
+    "url": "https://via.placeholder.com/600/5e12c6",
+    "img": "https://via.placeholder.com/150/5e12c6",
+    "date": "01.06.2022",
+    "type": "expensive"
+  },
+  {
+    "id": 22,
+    "title": "et ea illo et sit voluptas animi  ",
+    "url": "https://via.placeholder.com/600/45601a",
+    "img": "https://via.placeholder.com/150/45601a",
+    "date": "04.02.2022",
+    "type": "average"
+  },
+  {
+    "id": 23,
+    "title": "harum velit vero totam",
+    "url": "https://via.placeholder.com/600/e924e6",
+    "img": "https://via.placeholder.com/150/e924e6",
+    "date": "05.01.2022",
+    "type": "average"
+  },
+  {
+    "id": 24,
+    "title": "beatae officiis ut aut",
+    "url": "https://via.placeholder.com/600/8f209a",
+    "img": "https://via.placeholder.com/150/8f209a",
+    "date": "21.01.2022",
+    "type": "average"
+  },
+  {
+    "id": 25,
+    "title": "facere non quis fuga fugit ",
+    "url": "https://via.placeholder.com/600/5e3a73",
+    "img": "https://via.placeholder.com/150/5e3a73",
+    "date": "31.01.2022",
+    "type": "average"
+  },
+  {
+    "id": 26,
+    "title": "asperiores nobis voluptate qui",
+    "url": "https://via.placeholder.com/600/474645",
+    "img": "https://via.placeholder.com/150/474645",
+    "date": "11.01.2022",
+    "type": "average"
+  },
+  {
+    "id": 27,
+    "title": "sit asperiores est quos quis nisi ",
+    "url": "https://via.placeholder.com/600/c984bf",
+    "img": "https://via.placeholder.com/150/c984bf",
+    "date": "31.01.2022",
+    "type": "average"
+  },
+  {
+    "id": 28,
+    "title": "non neque eligendi molestiae ",
+    "url": "https://via.placeholder.com/600/392537",
+    "img": "https://via.placeholder.com/150/392537",
+    "date": "01.01.2022",
+    "type": "average"
+  },
+  {
+    "id": 29,
+    "title": "aut ipsam quos ab placeat omnis",
+    "url": "https://via.placeholder.com/600/602b9e",
+    "img": "https://via.placeholder.com/150/602b9e",
+    "date": "21.01.2022",
+    "type": "average"
+  },
+  {
+    "id": 30,
+    "title": "odio enim voluptatem quidem aut nihil",
+    "url": "https://via.placeholder.com/600/372c93",
+    "img": "https://via.placeholder.com/150/372c93",
+    "date": "06.01.2019",
+    "type": "average"
+  }
+]

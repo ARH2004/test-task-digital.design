@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/reset.css" />
+    <link rel="stylesheet" href="./src/style/index.css" />
+    <title>Тестовое</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav__list">
+          <li name="cheap" class="nav__item">ДЕШЕВЫЕ ВЕЩИ</li>
+          <li name="average" class="nav__item">СРЕДНИЙ СТОИМОСТИ ВЕЩИ</li>
+          <li name="expensive" class="nav__item">ДОРОГИЕ ВЕЩИ</li>
+        </ul>
+      </nav>
+      <div class="night__mode__container">
+        <label for="night">Ночной режим</label>
+        <input class="night__mode" id="night" type="checkbox" />
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="goods___list"></div>
+      </div>
+    </section>  
+    <div class="top__scroll">
+        <img src="https://cdn.icon-icons.com/icons2/1350/PNG/512/uparrowbutton_87886.png" alt="Наверх" />
+    </div>
+    <div class="modal">
+        <div class="modal__content">
+            <span class="close">
+                &times;
+            </span>
+            <p>Выберите количество:</p>
+            <input id="#amount" type="number">
+           <form action=""> 
+          <div>
+            <input id="green" name="color" type="radio">
+            <label for="one">Зеленый</label>
+          </div>
+          <div>
+            <input id="yellow" name="color" type="radio">   
+            <label for="two">Желтый</label>
+          </div>
+        <div>
+            <input id="red" name="color" type="radio">  
+            <label for="three">Красный</label>
+        </div>
+       <div>
+        <input type="text" id="#comment"  placeholder="Оставьте свой комментарий">
+       </div>
+            <button id="#btn_order" type="submit">Выбрать</button>
+        </form>
+        </div>
+    </div>
+
+    <script  src="./src/js/fetch.js"></script>
+    <script  src="./src/js/filter.js"></script>
+    <script  src="./src/js/scroll.js"></script>
+    <script  src="./src/js/index.js"></script> 
+    <script  src="./src/js/mode.js"></script>
+    <script  src="./src/js/modal.js"></script>
+  </body>
+</html>

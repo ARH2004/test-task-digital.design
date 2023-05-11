@@ -1,0 +1,121 @@
+.container {
+  width: 1380px;
+  margin: 0 auto;
+}
+
+.nav__list {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  height: 50px;
+}
+
+.nav__item {
+  margin-right: 25px;
+  margin-top: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.goods___list {
+  display: flex;
+  justify-content: flex-start;
+  grid-gap: 20px;
+  flex-wrap: wrap;
+  padding: 60px 20px 0px 20px;
+  margin-bottom: 55px;
+}
+
+.goods__item {
+  padding: 10px;
+  width: 250px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.goods__info {
+  text-align: center;
+}
+.goods__info a {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.goods__item__title {
+  margin: 15px 0px;
+}
+
+.goods__date {
+  text-align: end;
+  padding-right: 10px;
+}
+
+/*  */
+
+.top__scroll {
+  display: none;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.top__scroll img {
+  width: 40px;
+}
+
+/* js */
+.hide {
+  display: block;
+}
+
+.night__mode {
+  width: 10px;
+}
+header {
+  position: relative;
+}
+
+.night__mode__container {
+  position: fixed;
+  right: 0;
+  top: -10px;
+  padding: 25px;
+}
+
+.night__mode__container label {
+  margin-right: 15px;
+  color: white;
+}
+/* modal */
+
+.modal {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal__content {
+  background-color: aliceblue;
+  margin: 15% auto;
+  border: 1px solid black;
+  width: 40%;
+  padding: 20px;
+}
+
+.open__modal {
+  display: block;
+}
+
+.close {
+  cursor: pointer;
+}
