@@ -133,6 +133,15 @@ header {
 	border: 1px solid black;
 	width: 40%;
 	padding: 20px;
+	height: 300px;
+}
+
+.number__add {
+	border: 2px solid red;
+}
+
+.modal__text {
+	border: 2px solid green;
 }
 
 .open__modal {
