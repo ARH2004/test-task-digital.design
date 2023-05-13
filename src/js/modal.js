@@ -2,7 +2,17 @@ const btnModal = document.querySelector(".close");
 const modal = document.querySelector(".modal");
 
 const btn_order = document.getElementById("#btn_order");
-const amount = document.getElementById("#amount");
+
+const amountInput = document.getElementById("#amount");
+
+amountInput.value = 1;
+
+amountInput.addEventListener("input", function () {
+  if (amountInput.value < 1) {
+    amountInput.value = 1;
+  }
+});
+
 const comment = document.getElementById("#comment");
 const radios = document.querySelectorAll('input[name="color"]');
 //
@@ -36,13 +46,13 @@ function onMakeOrder(event) {
   event.preventDefault();
 
   const order = {
-    amount: amount.value,
+    amountInput: Math.max(amountInput.value, 1),
     comment: comment.value,
     color: onChooseColor(),
   };
 
   alert(
-    `вы заказали вещь в количестве ${order.amount}, цвет: ${order.color}, ваш комментарий: ${order.comment}`
+    `вы заказали вещь в количестве ${order.amountInput}, цвет: ${order.color}, ваш комментарий: ${order.comment}`
   );
 }
 
