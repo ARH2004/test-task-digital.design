@@ -55,7 +55,7 @@ function onShowGoods(type) {
       `<div class="goods__item">
             <div class="goods__info">
 							<div class="goods__img">
-            		<img src=${img} alt=${title} />							
+            		<img src=${img} alt=${title} />
 							</div>
             	<h3 class="goods__item__title">${title}</h3> #${id}
             	<div class="goods__buy">
@@ -69,5 +69,6 @@ function onShowGoods(type) {
 							</div>
            </div>
         </div>`
-  ));
+  )
+	.join(''));
 }
