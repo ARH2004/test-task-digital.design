@@ -10,10 +10,10 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <ul class="nav__list">
           <li name="cheap" class="nav__item">ДЕШЕВЫЕ ВЕЩИ</li>
-          <li name="average" class="nav__item">СРЕДНИЙ СТОИМОСТИ ВЕЩИ</li>
+          <li name="average" class="nav__item">СРЕДНЕЙ СТОИМОСТИ ВЕЩИ</li>
           <li name="expensive" class="nav__item">ДОРОГИЕ ВЕЩИ</li>
         </ul>
       </nav>
@@ -37,7 +37,13 @@
       <div class="modal__content">
         <span class="close"> &times; </span>
         <p class="modal__title">Выберите количество:</p>
-        <input id="#amount" type="number" class="number__add" placeholder=""/>
+        <input
+          id="#amount"
+          type="number"
+          class="number__add"
+          value="1"
+          min="1"
+        />
         <form action="" class="modal__form">
           <div>
             <input id="green" name="color" type="radio" />
@@ -56,14 +62,18 @@
               type="text"
               id="#comment"
               placeholder="Оставьте свой комментарий"
-							class="modal__text"
+              class="modal__text"
+							maxlength="2000"
             />
           </div>
-          <button id="#btn_order" type="submit" class="model__btn">Выбрать</button>
+          <button id="#btn_order" type="submit" class="model__btn">
+            Выбрать
+          </button>
         </form>
       </div>
     </div>
 
+    <script src="./src/js/validate.js"></script>
     <script src="./src/js/fetch.js"></script>
     <script src="./src/js/filter.js"></script>
     <script src="./src/js/scroll.js"></script>

@@ -1,24 +1,17 @@
 const btnModal = document.querySelector(".close");
 const modal = document.querySelector(".modal");
-
-const btn_order = document.getElementById("#btn_order");
-
+const modalContent = document.querySelector(".modal__content");
 const amountInput = document.getElementById("#amount");
 
-amountInput.value = 1;
+const btnOrder = document.getElementById("#btn_order");
 
-amountInput.addEventListener("input", function () {
-  if (amountInput.value < 1) {
-    amountInput.value = 1;
-  }
-});
 
 const comment = document.getElementById("#comment");
 const radios = document.querySelectorAll('input[name="color"]');
 //
-btn_order.addEventListener("click", onMakeOrder);
+btnOrder.addEventListener("click", onMakeOrder);
 btnModal.addEventListener("click", onCloseModal);
-
+modal.addEventListener("click", onCloseByBackground);
 //
 
 let observer = new MutationObserver(onGetElement);
@@ -42,6 +35,12 @@ function onCloseModal() {
   modal.classList.remove("open__modal");
 }
 
+function onCloseByBackground(event) {
+  if (event.target === modal) {
+    modal.classList.remove("open__modal");
+  }
+}
+
 function onMakeOrder(event) {
   event.preventDefault();
 
@@ -52,7 +51,7 @@ function onMakeOrder(event) {
   };
 
   alert(
-    `вы заказали вещь в количестве ${order.amountInput}, цвет: ${order.color}, ваш комментарий: ${order.comment}`
+    `Вы заказали вещь в количестве ${order.amountInput}, цвет: ${order.color}, ваш комментарий: ${order.comment}`
   );
 }
 

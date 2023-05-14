@@ -1,5 +1,7 @@
 .container {
-	width: 1380px;
+	display: flex;
+	justify-content: center;
+	max-width: 1380px;
 	margin: 0 auto;
 }
 
@@ -20,12 +22,17 @@
 }
 
 .goods___list {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/* flex-wrap: wrap; */
 	padding: 60px 20px 0px 20px;
 	margin-bottom: 55px;
 }
-
+@media(max-width: 1300px) {
+	.goods___list {
+		grid-template-columns: 1fr;
+	}
+}
 /** **/
 /* .goods__item {
 
