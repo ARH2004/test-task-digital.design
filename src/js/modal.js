@@ -1,13 +1,14 @@
 const btnModal = document.querySelector(".close");
 const modal = document.querySelector(".modal");
+
 const modalContent = document.querySelector(".modal__content");
 const amountInput = document.getElementById("#amount");
 
 const btnOrder = document.getElementById("#btn_order");
 
-
 const comment = document.getElementById("#comment");
 const radios = document.querySelectorAll('input[name="color"]');
+
 //
 btnOrder.addEventListener("click", onMakeOrder);
 btnModal.addEventListener("click", onCloseModal);

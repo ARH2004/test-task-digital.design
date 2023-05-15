@@ -28,11 +28,6 @@
 	padding: 60px 20px 0px 20px;
 	margin-bottom: 55px;
 }
-@media(max-width: 1300px) {
-	.goods___list {
-		grid-template-columns: 1fr;
-	}
-}
 /** **/
 /* .goods__item {
 

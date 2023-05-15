@@ -33,3 +33,9 @@ function getDayInfo(dateString) {
 
   return `${dayOfWeek}, ${weekNumber} неделя ${monthName} ${yearNumber} года`;
 }
+
+
+function toggleMenu() {
+  var navList = document.querySelector(".nav__list");
+  navList.classList.toggle("show");
+}
